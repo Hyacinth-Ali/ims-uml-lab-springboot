@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_tsV9gCOFEeqohKk8ExaosA">
+  <modelElement href="IMS.uml#__Yxj0CXGEeqohKk8ExaosA"/>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_WUr0ACXJEeqohKk8ExaosA" name="Employee">
+    <modelElement href="IMS.uml#_WUrM8CXJEeqohKk8ExaosA"/>
+    <visualProperties xmi:id="_WUr0ASXJEeqohKk8ExaosA" position="132.0,75.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_dWwvoCXJEeqohKk8ExaosA" name="Entity">
+      <modelElement href="IMS.uml#_dWvhgCXJEeqohKk8ExaosA"/>
+    </stereotypes>
+    <visibility xmi:id="_WUr0AiXJEeqohKk8ExaosA" label="+"/>
+    <attributes xmi:id="_hjGNMCXJEeqohKk8ExaosA" name="userName">
+      <modelElement href="IMS.uml#_hjFmICXJEeqohKk8ExaosA"/>
+      <stereotypes xmi:id="_rZ0asCXJEeqohKk8ExaosA" name="LegacyStyledElement">
+        <modelElement href="IMS.uml#_rZwJQCXJEeqohKk8ExaosA"/>
+      </stereotypes>
+      <visibility xmi:id="_hjGNMSXJEeqohKk8ExaosA" label="+"/>
+      <cardinality xmi:id="_hjGNMiXJEeqohKk8ExaosA" label="1" max="1" min="1"/>
+      <type xmi:id="_jVibMCXJEeqohKk8ExaosA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
