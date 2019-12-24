@@ -3,20 +3,37 @@
   <modelElement href="IMS.uml#__Yxj0CXGEeqohKk8ExaosA"/>
   <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_WUr0ACXJEeqohKk8ExaosA" name="Employee">
     <modelElement href="IMS.uml#_WUrM8CXJEeqohKk8ExaosA"/>
-    <visualProperties xmi:id="_WUr0ASXJEeqohKk8ExaosA" position="132.0,75.0" size="-1.0,-1.0"/>
+    <visualProperties xmi:id="_WUr0ASXJEeqohKk8ExaosA" position="89.0,197.0" size="-1.0,-1.0"/>
     <stereotypes xmi:id="_dWwvoCXJEeqohKk8ExaosA" name="Entity">
       <modelElement href="IMS.uml#_dWvhgCXJEeqohKk8ExaosA"/>
     </stereotypes>
+    <stereotypes xmi:id="_QsAOQCYLEeqohKk8ExaosA" name="TechnicalSupplement">
+      <modelElement href="IMS.uml#_Qr_AICYLEeqohKk8ExaosA"/>
+    </stereotypes>
     <visibility xmi:id="_WUr0AiXJEeqohKk8ExaosA" label="+"/>
-    <attributes xmi:id="_hjGNMCXJEeqohKk8ExaosA" name="userName">
+    <attributes xmi:id="_hjGNMCXJEeqohKk8ExaosA" defaultValue="false" name="manager">
       <modelElement href="IMS.uml#_hjFmICXJEeqohKk8ExaosA"/>
-      <stereotypes xmi:id="_rZ0asCXJEeqohKk8ExaosA" name="LegacyStyledElement">
-        <modelElement href="IMS.uml#_rZwJQCXJEeqohKk8ExaosA"/>
+      <stereotypes xmi:id="_QJ9toCYKEeqohKk8ExaosA" name="StyledElement">
+        <modelElement href="IMS.uml#_QJ8fgCYKEeqohKk8ExaosA"/>
       </stereotypes>
       <visibility xmi:id="_hjGNMSXJEeqohKk8ExaosA" label="+"/>
       <cardinality xmi:id="_hjGNMiXJEeqohKk8ExaosA" label="1" max="1" min="1"/>
-      <type xmi:id="_jVibMCXJEeqohKk8ExaosA" name="String">
-        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <type xmi:id="_sUTR4CYJEeqohKk8ExaosA" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_eFHkcSYLEeqohKk8ExaosA" name="id">
+      <modelElement href="IMS.uml#_eFHkcCYLEeqohKk8ExaosA"/>
+      <stereotypes xmi:id="_ttluICYLEeqohKk8ExaosA" name="Annotations">
+        <modelElement href="IMS.uml#_ttiq0CYLEeqohKk8ExaosA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_ttoKYCYLEeqohKk8ExaosA" name="LegacyStyledElement">
+        <modelElement href="IMS.uml#_ttj48CYLEeqohKk8ExaosA"/>
+      </stereotypes>
+      <visibility xmi:id="_eFHkciYLEeqohKk8ExaosA" label="+"/>
+      <cardinality xmi:id="_eFHkcyYLEeqohKk8ExaosA" label="1" max="1" min="1"/>
+      <type xmi:id="_gQM78CYLEeqohKk8ExaosA" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
       </type>
     </attributes>
   </nodes>
